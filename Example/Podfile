@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CommonTools_swift_Example' do
+  pod 'CommonTools_swift', :path => '../'
+
+  target 'CommonTools_swift_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 1.0.0'
+  end
+end

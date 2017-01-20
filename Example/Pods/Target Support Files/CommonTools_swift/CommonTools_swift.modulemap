@@ -1,0 +1,6 @@
+framework module CommonTools_swift {
+  umbrella header "CommonTools_swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
